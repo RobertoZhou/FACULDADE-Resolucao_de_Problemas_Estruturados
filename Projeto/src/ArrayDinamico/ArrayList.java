@@ -1,27 +1,27 @@
 package ArrayDinamico;
 
-public class ArrayList {
-    private int[] data;
-    private int capacity;
+public class ArrayList<T> {
+    private Object[] data;
+    private int size;
 
     public ArrayList() {
-        this.data = new int[10]; // Capacidade Inicial
-        this.capacity = 0; // Capacidade sendo usada no Array
+        this.data = new Object[10];
+        this.size = 0;
     }
 
-    public void add(int value) {
-        if(this.capacity == this.data.length) {
+    public void add(T value) {
+        if (this.size == this.data.length) {
             resize();
         }
 
-        this.data[capacity] = value;
-        this.capacity++;
+        this.data[size] = value;
+        this.size++;
     }
 
     private void resize() {
         int newCapacity = this.data.length + (this.data.length / 2);
 
-        int[] newArray = new int[newCapacity];
+        Object[] newArray = new Object[newCapacity];
 
         for (int i = 0; i < this.data.length; i++) {
             newArray[i] = this.data[i];
@@ -30,23 +30,23 @@ public class ArrayList {
         this.data = newArray;
     }
 
-    public int get(int index) {
-
-        if (index < 0 || index >= this.capacity) {
+    public T get(int index) {
+        if (index < 0 || index >= this.size) {
             throw new IndexOutOfBoundsException();
         }
-        return this.data[index];
+
+        return (T) this.data[index]; // casting
     }
 
     public void remove(int index) {
-
-        if(index < 0 || index >= this.capacity) {
+        if (index < 0 || index >= this.size) {
             throw new IndexOutOfBoundsException();
         }
 
-        for (int i = index; i < this.capacity - 1; i++) {
+        for (int i = index; i < this.size - 1; i++) {
             this.data[i] = this.data[i + 1];
         }
-        this.capacity--;
+
+        this.size--;
     }
 }
