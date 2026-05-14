@@ -5,15 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="194abfe4-9bbb-4813-8061-23451301a7a7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Projeto/src/TabelaHash/HashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FACULDADE-Resolucao_de_Problemas_Estruturados.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FACULDADE-Resolucao_de_Problemas_Estruturados.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Projeto/src/TabelaHash/TableHash.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -25,14 +39,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Zhou/Documents/GitHub/FACULDADE-Resolucao_de_Problemas_Estruturados/Projeto"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zhou\Documents\GitHub\FACULDADE-Resolucao_de_Problemas_Estruturados\Projeto" />
+    </key>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="194abfe4-9bbb-4813-8061-23451301a7a7" name="Changes" comment="" />
